@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript-Example</title>
+
+  <!-- favicon link -->
+  <link rel="icon" href="images/fav.png">
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/daf98d2ef3.js" crossorigin="anonymous"></script>
+  <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="container">
+    <!--Example:1-->
+    <h2 class="text-danger">1. My First JavaScript</h2>
+    <button class="btn btn-dark" onclick="showText()">Show Text</button>
+    <h3 id="s_text"></h3>
+    <hr>
+
+    <!--Example:2-->
+    <h2 class="text-danger">2. What can JavaScript do?</h2>
+    <button class="btn btn-dark" type="Button" onclick="showContent()">Click Me</button>
+    <h3 id="demo1">JavaScript can change HTML content.</h3>
+
+    <hr>
+
+    <!--Example:3-->
+    <h2 class="text-danger">2. Click the Button to show the DATE</h2>
+    <button onclick="showDate()" class="btn btn-dark" type="Button">Show Date</button>
+    <h3 id="s_date"></h3>
+    <hr>
+
+
+    <!--Example:4-->
+    <h2 class="text-danger">4. Click the button to turn On/Off the Bulb</h2>
+    <button onclick="bulbOn()" class="btn btn-dark">BulbOn</button>
+    <button onclick="bulbOff()" class="btn btn-dark" type="Button">BulbOff/On</button>
+    <img id="img" src="images/off.gif" alt="#">
+    <hr>
+
+
+    <!--Example:5-->
+    <h2 class="text-danger">5. JavaScript can Show/Hide the content.</h2>
+    <button onclick="showContent()" class="btn btn-dark" type="Button">Show</button>
+    <button onclick="hideContent()" class="btn btn-dark" type="Button">Hide</button>
+    <h3 id="con">Hide or show me Now..</h3>
+    <hr>
+
+
+    <!--Example:6-->
+    <h2>6. Click the button to Show the result</h2>
+    <button onclick="showResult()" class="btn btn-dark">Result</button>
+    <h3 id="result">Value is (5+4)= </h3>
+    <hr>
+
+    <!--Example:7-->
+    <h2>7. JavaScript Statements</h2>
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+    <h3 id="demo2"></h3>
+    <hr>
+
+
+    <!--Example:8-->
+    <h2>8. JavaScript Statements</h2>
+    <p>JavaScript statements are separated by semicolons.</p>
+    <h3 id="demo3"></h3>
+    <hr>
+
+
+    <!--Example:9-->
+    <h2>9. JavaScript Statements</h2>
+    <p>Multiple statements on one line are allowed.</p>
+    <h3 id="demo4"></h3>
+    <hr>
+
+
+    <!--Example:10-->
+    <h2>10. JavaScript Statements</h2>
+    <p>The best place to break a code line is after an operator or a comma.</p>
+    <h3 id="demo5"></h3>
+    <hr>
+
+
+    <!--Example:11-->
+    <h2>11. JavaScript Statements</h2>
+    <p>JavaScript code blocks are written between { and }</p>
+    <button type="button" onclick="seeBlocks()">Click Me!</button>
+    <h3 id="demo6"></h3>
+    <h3 id="demo7"></h3>
+    <hr>
+
+
+    <!--Example:12-->
+    <h2>12. JavaScript Numbers</h2>
+    <p>Number can be written with or without decimals.</p>
+    <h3 id="demo8"></h3>
+    <hr>
+
+    <!--Example:13-->
+    <h2>13. JavaScript Strings</h2>
+    <p>Strings can be written with double or single quotes.</p>
+    <h3 id="demo9"></h3>
+    <hr>
+
+
+    <!--Example:14-->
+    <h2>14. JavaScript Variables</h2>
+    <p>In this example,'r' is defined as a variable.
+    Then, r is assigned the value of 6:</p>
+    <h3 id="demo10"></h3>
+    <hr>
+
+
+    <!--Example:15-->
+    <h2>15. JavaScript Operators</h2>
+    <p>JavaScript uses arithmetic operators to compute values (just like algebra).</p>
+    <h3 id="demo11"></h3>
+    <hr>
+
+    <!--Example:16-->
+    <h2>16. Assigning JavaScript Values</h2>
+    <p>In JavaScript the = operator is used to assign values to variables.</p>
+    <h3 id="demo12"></h3>
+    <hr>
+
+    <!--Example:17-->
+    <h2>17. JavaScript Expressions</h2>
+    <p>Expressions compute to values.</p>
+    <h3 id="demo13"></h3>
+    <hr>
+
+
+    <!--Example:18-->
+    <h2>18. JavaScript Expressions</h2>
+    <p>Expressions compute to values.</p>
+    <h3 id="demo14"></h3>
+    <hr>
+
+
+    <!--Example:19-->
+    <h2>19. JavaScript Expressions</h2>
+    <p>Expressions compute to values.</p>
+    <h3 id="demo15"></h3>
+    <hr>
+
+
+    <!--Example:20-->
+    <h2>20. The <b>let</b> Keyword Creates Variables</h2>
+    <h3 id="demo16"></h3>
+    <hr>
+
+    <!--Example:21-->
+    <h2>21. JavaScript is Case Sensitive</h2>
+    <p>Try to change lastName to lastname.</p>
+    <h3 id="demo17"></h3>
+    <hr>
+
+
+    <!--Example:22-->
+    <h1>22. </h1>
+    <h2 id="myH"></h2>
+    <h3 id="myP"></h3>
+    <hr>
+
+
+    <!--Example:23-->
+    <h2>23. JavaScript Comments</h2>
+    <h3 id="demo18"></h3>
+    <hr>
+
+    <!--Example:24-->
+    <h1>24. JavaScript Variables</h1>
+    <p>In this example, x, y, and z are undeclared.</p>
+    <p>They are automatically declared when first used.</p>
+    <h3 id="demo19"></h3>
+    <hr>
+
+
+    <!--Example:25-->
+    <h1>25. JavaScript Variables</h1>
+    <p>In this example, x, y, and z are variables.</p>
+    <h3 id="demo20"></h3>
+    <hr>
+
+    <!--Example:26-->
+    <h2>26. Redeclaring a Variable Using var</h2>
+    <h3 id="demo21"></h3>
+    <hr>
+
+    <!--Example:27-->
+    <h2>27. JavaScript const</h2>
+    <h3 id="demo22"></h3>
+    <hr>
+
+    <!--Example:28-->
+    <h2>28. JavaScript const</h2>
+    <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+    <h3 id="demo23"></h3>
+    <hr>
+
+
+    <!--Example:29-->
+    <h2>29. JavaScript const</h2>
+    <p>Declaring a constant object does NOT make the objects properties unchangeable:</p>
+    <h3 id="demo24"></h3>
+    <hr>
+
+
+    <!--Example:30-->
+    <h2>30. JavaScropt const variables has block scope</h2>
+    <h3 id="demo25"></h3>
+    <hr>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+
+
+  <!--script links-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
